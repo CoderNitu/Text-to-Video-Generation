@@ -1,1 +1,2 @@
 # Text-to-Video-Generation
+Generative AI is a rapidly growing field that focuses on developing algorithms that can create content on their own, without being explicitly programmed to do so. Text-to-Video Synthesis is one of the most fascinating applications of this technology, as it allows us to generate videos from simple text prompts.Here i learn how to input simple text prompt,configure the pre-trained diffusion model, and generate a video. 
