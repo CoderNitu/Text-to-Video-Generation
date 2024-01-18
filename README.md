@@ -50,6 +50,9 @@ Generative Adversarial Networks (GANs) and Diffusion Models represent two approa
       where β_t is the same noise level as in the forward diffusion process, and η_t is a standard Gaussian random variable. The noise level β_t decreases as t decreases until it reaches 
       0 at the initial step 0. At this point, ε_0 is equal to x.
 
+   ![Reverse-process-1024x388](https://github.com/CoderNitu/Text-to-Video-Generation/assets/87817227/915e2e08-77c2-43f0-b2b0-02dd01a671f9)
+
+
    
 
 
