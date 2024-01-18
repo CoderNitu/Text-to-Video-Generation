@@ -60,7 +60,11 @@ Generative Adversarial Networks (GANs) and Diffusion Models represent two approa
    (larger β) requires more steps to achieve better quality, while a less aggressive noise schedule (smaller β) requires fewer steps to achieve good diversity. The optimal choice of 
    these hyperparameters depends on the data domain, the score function architecture, and the computational budget.
 
-   ## DIFFUSION MODEL USED
+   ## ABOUT DIFFUSION MODEL USED
+
+   The model I used is based on a multi-stage text-to-video generation diffusion model, which inputs a description text and returns a video that matches the text description. Only 
+   English input is supported. This model is developed by Model Scope and it also has limitations regarding the number of frames, language use, length of the text prompt, etc that you 
+   can view on their website:  https://huggingface.co/ali-vilab/text-to-video-ms-1.7b
 
 
 
