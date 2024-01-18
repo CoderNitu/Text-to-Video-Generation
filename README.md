@@ -36,8 +36,8 @@ Generative Adversarial Networks (GANs) and Diffusion Models represent two approa
 
                                                          x_t = √(1 – βt) * x(t-1) + √β_t * η_t
 
-            where β_t is the noise level at step t, and η_t is a standard Gaussian random variable. The noise level β_t increases as t increases until it reaches 1 at the final step T. 
-            At this point, x_T is completely random and independent of x.
+       where β_t is the noise level at step t, and η_t is a standard Gaussian random variable. The noise level β_t increases as t increases until it reaches 1 at the final step T. 
+       At this point, x_T is completely random and independent of x.
    
 
 
