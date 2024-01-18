@@ -17,7 +17,7 @@ Generative Adversarial Networks (GANs) and Diffusion Models represent two approa
     ![gans_gfg-(1)](https://github.com/CoderNitu/Text-to-Video-Generation/assets/87817227/eb063050-7f9c-44f3-9652-6d07d52021e2)
 ![EXX-Blog-Gan-vs-diffusion-models-2](https://github.com/CoderNitu/Text-to-Video-Generation/assets/87817227/ac778b14-e173-430f-a527-a38ad2720104)
 
- 3. 
+ 2. Diffusion Models
 
 
 
