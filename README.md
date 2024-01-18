@@ -60,6 +60,8 @@ Generative Adversarial Networks (GANs) and Diffusion Models represent two approa
    (larger β) requires more steps to achieve better quality, while a less aggressive noise schedule (smaller β) requires fewer steps to achieve good diversity. The optimal choice of 
    these hyperparameters depends on the data domain, the score function architecture, and the computational budget.
 
+   ## DIFFUSION MODEL USED
+
 
 
    
