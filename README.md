@@ -30,7 +30,7 @@ Generative Adversarial Networks (GANs) and Diffusion Models represent two approa
    Diffusion models are generative AI models that create high-resolution data domain samples. They use Gaussian noise (a type of random noise that is often added to the input data, 
    which helps the diffusion model to generate new data that is similar to the training data, even when the input is not perfect)
    The diffusion Model works using two processes :
-   (a) Forward Diffusion process
+   # (a) Forward Diffusion process
        The forward diffusion process is a Markov chain that starts from the original data x and ends at a noise sample ε. At each step t, the data is corrupted by adding Gaussian noise 
        to it. The noise level increases as t increases until it reaches 1 at the final step T. At this point, x_T is completely random and independent of x.
 
