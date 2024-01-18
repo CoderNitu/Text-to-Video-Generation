@@ -31,9 +31,9 @@ Generative Adversarial Networks (GANs) and Diffusion Models represent two approa
        The forward diffusion process is a Markov chain that starts from the original data x and ends at a noise sample ε. At each step t, the data is corrupted by adding Gaussian noise 
        to it. The noise level increases as t increases until it reaches 1 at the final step T. At this point, x_T is completely random and independent of x.
 
-    x_t = √(1 – βt) * x(t-1) + √β_t * η_t
-     where β_t is the noise level at step t, and η_t is a standard Gaussian random variable. The noise level β_t increases as t increases until it reaches 1 at the final step T. At 
-     this point, x_T is completely random and independent of x.
+                                                              x_t = √(1 – βt) * x(t-1) + √β_t * η_t
+            where β_t is the noise level at step t, and η_t is a standard Gaussian random variable. The noise level β_t increases as t increases until it reaches 1 at the final step T. 
+            At this point, x_T is completely random and independent of x.
    
 
 
