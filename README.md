@@ -41,6 +41,15 @@ Generative Adversarial Networks (GANs) and Diffusion Models represent two approa
 
    ![Forward-process-1024x388](https://github.com/CoderNitu/Text-to-Video-Generation/assets/87817227/34147d33-271e-4cd9-885d-baddfd6ee4f0)
 
+   # (b) Reverse Diffusion process
+       The reverse diffusion process is the inverse of the forward diffusion process. It starts from a noise sample ε and ends at a data sample x. At each step t, the noise is reduced by 
+       subtracting Gaussian noise from it. The noise level decreases as t decreases until it reaches 0 at the initial step 0. At this point, ε0 is equal to x.
+
+                                                        ε_t = √(1 – β_t) * ε(t+1) – √β_t * η_t
+
+      where β_t is the same noise level as in the forward diffusion process, and η_t is a standard Gaussian random variable. The noise level β_t decreases as t decreases until it reaches 
+      0 at the initial step 0. At this point, ε_0 is equal to x.
+
    
 
 
