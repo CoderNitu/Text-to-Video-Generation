@@ -52,6 +52,15 @@ Generative Adversarial Networks (GANs) and Diffusion Models represent two approa
 
    ![Reverse-process-1024x388](https://github.com/CoderNitu/Text-to-Video-Generation/assets/87817227/915e2e08-77c2-43f0-b2b0-02dd01a671f9)
 
+   The noise schedule and the number of steps are two important hyperparameters that affect the performance of the Diffusion Model. They determine how fast and how smoothly the data is 
+   transformed into noise and vice versa. The noise schedule is a sequence of noise levels β_t that control the amount of Gaussian noise added or subtracted at each step t. The number of 
+   steps T is the length of the forward and reverse diffusion processes. It affects the quality and diversity of the generated data. A larger T means that the data is more corrupted by 
+   noise, which makes it harder to recover from the noise, but also allows for more variation in the data. A smaller T means that the data is less corrupted by noise, which makes it 
+   easier to recover from the noise, but also limits the variation in the data. There is a trade-off between the noise schedule and the number of steps. A more aggressive noise schedule 
+   (larger β) requires more steps to achieve better quality, while a less aggressive noise schedule (smaller β) requires fewer steps to achieve good diversity. The optimal choice of 
+   these hyperparameters depends on the data domain, the score function architecture, and the computational budget.
+
+
 
    
 
