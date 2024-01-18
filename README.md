@@ -72,12 +72,7 @@ Generative Adversarial Networks (GANs) and Diffusion Models represent two approa
    multiple independently-trained models. The DiffusionPipeline is the fastest way to load any pre-trained diffusion pipeline from the Hub(online repository or web page where the pre- 
    trained is stored or hosted at) for inference.
 
-   ## VIDEO GENERATED 
-
-   ![images](https://github.com/CoderNitu/Text-to-Video-Generation/assets/87817227/8c58fadb-5c01-4d0a-b7ce-305f7f1ee37e)
-
-   
-https://github.com/CoderNitu/Text-to-Video-Generation/assets/87817227/08e95d71-a959-4831-8735-28e5d94b150c
+ 
 
 
 
