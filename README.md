@@ -63,8 +63,14 @@ Generative Adversarial Networks (GANs) and Diffusion Models represent two approa
    ## ABOUT DIFFUSION MODEL USED
 
    The model I used is based on a multi-stage text-to-video generation diffusion model, which inputs a description text and returns a video that matches the text description. Only 
-   English input is supported. This model is developed by Model Scope and it also has limitations regarding the number of frames, language use, length of the text prompt, etc that you 
-   can view on their website:  https://huggingface.co/ali-vilab/text-to-video-ms-1.7b
+   English input is supported. This model is developed by Model Scope and it also has limitations regarding the number of frames, language use, length of the text prompt, video quality, 
+   etc that you can view on their website:  https://huggingface.co/ali-vilab/text-to-video-ms-1.7b
+
+   ## Diffusion Pipeline
+
+   A diffusion pipeline is a way to run diffusion models in inference by combining all the necessary components into a single class. These components include schedulers, processors, and 
+   multiple independently-trained models. The DiffusionPipeline is the fastest way to load any pre-trained diffusion pipeline from the Hub(online repository or web page where the pre- 
+   trained is stored or hosted at) for inference.
 
 
 
