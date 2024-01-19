@@ -69,7 +69,7 @@ Generative Adversarial Networks (GANs) and Diffusion Models represent two approa
    ## Diffusion Pipeline
 
    A diffusion pipeline is a way to run diffusion models in inference by combining all the necessary components into a single class. These components include schedulers, processors, and 
-   multiple independently-trained models. The DiffusionPipeline is the fastest way to load any pre-trained diffusion pipeline from the Hub(online repository or web page where the pre- 
+   multiple independently-trained models. The DiffusionPipeline is the fastest way to load any pre-trained diffusion pipeline from the Hub (online repository or web page where the pre- 
    trained is stored or hosted at) for inference.
 
  
