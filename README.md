@@ -72,6 +72,10 @@ Generative Adversarial Networks (GANs) and Diffusion Models represent two approa
    multiple independently-trained models. The DiffusionPipeline is the fastest way to load any pre-trained diffusion pipeline from the Hub (online repository or web page where the pre- 
    trained model is stored or hosted at) for inference.
 
+   ## Multimodal AI
+
+Multimodal AI is a type of artificial intelligence (AI) that can process, understand, and generate outputs for more than one type of data. It combines multiple types of data, such as images, text, speech, and numerical data, with multiple intelligence processing algorithms to achieve higher performances. Multimodal AI often outperforms single-modal AI in many real-world problems. It leverages diverse data types, offering a richer representation of information. This approach enhances contextual understanding, resulting in more accurate predictions and informed decisions.
+
  
 
 
